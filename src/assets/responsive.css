@@ -1,0 +1,73 @@
+@media (max-width: 1000px){
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .site-header,
+    .top-bar ul.top-bar-social p{
+        display: none;
+    }
+
+    .top-bar{
+        padding: 10px 15px;
+    }
+
+    .top-bar ul.top-contact li a,
+    footer p{
+        font-size: 12px;
+    }
+
+    .top-bar ul.top-contact i{
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+
+    .home_about_content h1,
+    .why-us h1,
+    .section_title h1{
+        font-size: 26px;
+    }
+
+    .home_about_content p{
+        font-size: 13px;
+    }
+
+    .contact_form_div,
+    .contact_form_info,
+    .contactForm,
+    .contactMap{
+        width: 100%;
+    }
+
+    .contact_form_div h1{
+        font-size: 32px;
+    }
+
+    .footer{
+        padding: 30px 15px;
+        flex-wrap: wrap;
+    }
+
+    .footer-form{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-menu{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    footer ul{
+        flex-wrap: wrap;
+        display: none;
+    }
+
+}
